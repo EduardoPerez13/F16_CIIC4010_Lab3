@@ -10,7 +10,7 @@ public class Lab3Exercises {
 
 		Eduardo.setLocation(860, 440);
 
-		Eduardo.setSize(200, 200);
+		Eduardo.setSize(400, 250);
 		
 		MyPanelClass myPanel = new MyPanelClass();
         Eduardo.getContentPane().add(myPanel);
