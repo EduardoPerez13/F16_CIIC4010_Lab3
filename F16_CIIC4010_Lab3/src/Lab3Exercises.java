@@ -11,6 +11,9 @@ public class Lab3Exercises {
 		Eduardo.setLocation(860, 440);
 
 		Eduardo.setSize(200, 200);
+		
+		MyPanelClass myPanel = new MyPanelClass();
+        Eduardo.getContentPane().add(myPanel);
 
 		Eduardo.setVisible(true);
 
