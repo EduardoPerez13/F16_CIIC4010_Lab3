@@ -9,8 +9,9 @@ public class Lab3Exercises {
 		Eduardo.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
 		Eduardo.setLocation(860, 440);
-
-		Eduardo.setSize(400, 250);
+		//Eduardo.setLocation(483, 239); *For my laptop resolution*
+		
+		Eduardo.setSize(400, 290);
 		
 		MyPanelClass myPanel = new MyPanelClass();
         Eduardo.getContentPane().add(myPanel);
